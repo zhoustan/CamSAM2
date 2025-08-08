@@ -117,7 +117,8 @@ python scripts/eval_CAD.py \
 ### Parameter Details
 
 - **`--model_cfg`**: Specifies the model configuration file (e.g., `sam2_hiera_t.yaml`).
-- **`--ckpt_path`**: Path to the model checkpoint file (e.g., `work_dir/CamSAM2_tiny.pth`).
+- **`--ckpt_path`**: Path to the model checkpoint file (e.g., `work_dir/CamSAM2_tiny.pth`), or path to the SAM2 checkpoint file (e.g., `checkpoints/sam2_hiera_tiny.pt`). The latter should be used with **`--camsam2_extra`** together.
+- **`--camsam2_extra`**: Path to the CamSAM2 modules checkpoint file (e.g., `work_dir/CamSAM2_tiny_modules.pth`).
 - **`--output_mode`**:  
   - Use `original_sam2_mask` to obtain results predicted solely by SAM2.  
   - Use `combined_mask` to utilize the predictions from CamSAM2.
