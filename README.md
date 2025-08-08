@@ -4,8 +4,6 @@
 
 # Highlight
 
-### The first SAM2-based Video Camouflaged Object Segmentation (VCOS) model!  
-
 <div align="center">
   <img src="fig/architecture.png"/>
 </div>
