@@ -1,0 +1,9 @@
+._.DS_Store
+.idea
+.ipynb_checkpoints
+checkpoints/*.pt
+build
+SAM_2.egg-info
+work_dir/CamSAM2_tiny.pth
+**/.DS_Store
+**/__pycache__/
