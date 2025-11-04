@@ -1,6 +1,7 @@
 # CamSAM2: Segment Anything Accurately in Camouflaged Videos
+*Yuli Zhou, Yawei Li, Yuqian Fu, Luca Benini, Ender Konukoglu, Guolei Sun* *
 
-
+Welcome to the official PyTorch implementation repository of our paper [**CamSAM2: Segment Anything Accurately in Camouflaged Videos**](https://openreview.net/pdf?id=WbpzGpVWVx), accepted to NeurIPS 2025.
 
 # Highlight
 
@@ -128,3 +129,32 @@ python scripts/eval_CAD.py \
   - **point**: Uses one randomly selected point within the ground truth mask region.  
   - You can specify multiple prompt types by separating them with commas (e.g., `mask,box,point`).
 - **`--output_path`**: Path to save the evaluation results.
+
+## 📝 Citation
+If you find this project useful, please consider giving a star :star: and citation &#x1F4DA;:
+
+```bibtex
+@article{zhou2025sam2,
+      title={When {SAM2} meets video camouflaged object segmentation: A comprehensive evaluation and adaptation},
+      author={Zhou, Yuli and Sun, Guolei and Li, Yawei and Xie, Guo-Sen and Benini, Luca and Konukoglu, Ender},
+      journal={Visual Intelligence},
+      volume={3},
+      number={1},
+      pages={10},
+      year={2025},
+      publisher={Springer}
+}
+
+@inproceedings{zhou2025camsam,
+      title={Cam{SAM}2: Segment Anything Accurately in Camouflaged Videos},
+      author={Yuli Zhou and Yawei Li and Yuqian Fu and Luca Benini and Ender Konukoglu and Guolei Sun},
+      booktitle={NeurIPS},
+      year={2025}
+}
+```
+
+## Contact
+
+For any questions or issues, feel free to reach out!
+
+**Yuli Zhou**: zhoustan98@gmail.com, **Guolei Sun**: guolei.sun@nankai.edu.cn.
