@@ -3,10 +3,7 @@
 
 Welcome to the official PyTorch implementation repository of our paper [**CamSAM2: Segment Anything Accurately in Camouflaged Videos**](https://openreview.net/pdf?id=WbpzGpVWVx), accepted to NeurIPS 2025.
 
-<video width="640" controls>
-  <source src="assets/copperhead_snake.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/faa4ab6a-8760-4b5a-aa2d-bf4150f98a8e
 
 
 # Highlight
